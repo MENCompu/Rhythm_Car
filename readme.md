@@ -12,6 +12,8 @@ The features that the ""Game Engine"" have are:
 - Assets hot reloading (doesnt't work with compress .tga files, just with its uncompress variants).
 - Original parsers for .obj, .tga, .bmp, .fnt, file formats.
 - support for Xbox 360 controllers.
+- Basic UI system.
+- Bezier curves.
 
 ## How to Play
 - a, w, d, s -> camera movement.
