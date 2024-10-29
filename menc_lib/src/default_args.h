@@ -1,0 +1,5 @@
+#define __nargs7c__(a00,a01,a02,a03,a04,a05,a06,a07,a08,a09,a0a,a0b,a0c,a0d,a0e,a0f,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a1a,a1b,a1c,a1d,a1e,a1f,a20,a21,a22,a23,a24,a25,a26,a27,a28,a29,a2a,a2b,a2c,a2d,a2e,a2f,a30,a31,a32,a33,a34,a35,a36,a37,a38,a39,a3a,a3b,a3c,a3d,a3e,a3f,a40,a41,a42,a43,a44,a45,a46,a47,a48,a49,a4a,a4b,a4c,a4d,a4e,a4f,a50,a51,a52,a53,a54,a55,a56,a57,a58,a59,a5a,a5b,a5c,a5d,a5e,a5f,a60,a61,a62,a63,a64,a65,a66,a67,a68,a69,a6a,a6b,a6c,a6d,a6e,a6f,a70,a71,a72,a73,a74,a75,a76,a77,a78,a79,a7a,a7b,a7c,...)  a7c
+#define __nargs__(...)   __nargs7c__(,##__VA_ARGS__, 7b,7a,79,78,77,76,75,74,73,72,71,70,6f,6e,6d,6c,6b,6a,69,68,67,66,65,64,63,62,61,60,5f,5e,5d,5c,5b,5a,59,58,57,56,55,54,53,52,51,50,4f,4e,4d,4c,4b,4a,49,48,47,46,45,44,43,42,41,40,3f,3e,3d,3c,3b,3a,39,38,37,36,35,34,33,32,31,30,2f,2e,2d,2c,2b,2a,29,28,27,26,25,24,23,22,21,20,1f,1e,1d,1c,1b,1a,19,18,17,16,15,14,13,12,11,10,f,e,d,c,b,a,9,8,7,6,5,4,3,2,1,0)
+#define __vfn(name, n)  name##n
+#define _vfn( name, n)  __vfn(name, n)
+#define vfn(  fn, ...)  _vfn(fn, __nargs__(__VA_ARGS__))(__VA_ARGS__)

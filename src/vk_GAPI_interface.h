@@ -1,0 +1,6 @@
+#ifndef VK_GAPI_INTERFACE_H
+#define VK_GAPI_INTERFACE_H
+
+
+
+#endif // VK_GAPI_INTERFACE_H
