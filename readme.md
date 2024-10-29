@@ -1,8 +1,9 @@
 # Rhythm_Car
-My attempt at making a Windows-only game engine from scratch using nothing more than Vulkan and Win32 APIs. Hardware rendering is hard :(
+My attempt at making a Windows-only game engine from scratch using nothing more than Vulkan and Win32 APIs.
+Hardware rendering is hard :(
 
 ## Build instructions
-Just use the build.bat script present in the repository. There are pre-built shaders in the repository, but if you want to build them by yourself you would need to install the glsl compiler.
+Just use the build.bat script present in the repository (you should have the MSVC compiler ready to work in the command line). There are pre-built shaders in the repository, but if you want to build them by yourself you would need to install the glsl compiler.
 
 ## Features
 The features that the ""Game Engine"" have are:
@@ -25,6 +26,9 @@ The features that the ""Game Engine"" have are:
 
 ## Shoutouts
 This ""Game Engine"" could be made thanks to the Handmade Hero series and the Kohi Game Engine series.
+
+## Notes
+It takes a while to boot up the first time, so don't be afraid.
 
 ## Overview
 [Rhythm car overview](https://www.youtube.com/watch?v=_4D7M9dKQfk&ab_channel=MENYoutuber).
