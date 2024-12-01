@@ -27,7 +27,7 @@ The features that the ""Game Engine"" have are:
 - r -> render Axis Aligned Bounding Boxes (AABB).
 
 ## Shoutouts
-This ""Game Engine"" could be made thanks to the Handmade Hero series and the Kohi Game Engine series.
+This ""Game Engine"" was made thanks to the Handmade Hero series and the Kohi Game Engine series.
 
 ## Notes
 It takes a while to boot up the first time, so don't be afraid.
